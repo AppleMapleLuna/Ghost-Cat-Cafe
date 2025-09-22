@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3 uid="uid://dfr40qv1t1vxu"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_1sqo1"]
+[ext_resource type="Texture2D" uid="uid://cylfp3qufvi8o" path="res://art/menuscreenbutlighter.png" id="1_cmy4s"]
+[ext_resource type="FontFile" uid="uid://bvby40omulddj" path="res://Fonts/Qdbettercomicsans-jEEeG.ttf" id="1_itiny"]
+[ext_resource type="FontFile" uid="uid://h4bc0lggkimq" path="res://Fonts/Qdbettercomicsansbold-511d8.ttf" id="2_swl3o"]
+[ext_resource type="FontFile" uid="uid://bn2s4cmb1in5u" path="res://Fonts/Qdbettercomicsansalternates-z8823.ttf" id="3_05gle"]
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource("1_1sqo1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1154.0
+offset_bottom = 689.0
+texture = ExtResource("1_cmy4s")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.420362, 0.112495, 0, 1)
+theme_override_fonts/font = ExtResource("2_swl3o")
+theme_override_font_sizes/font_size = 100
+text = "GHOST CAT CAFE"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_05gle")
+theme_override_font_sizes/font_size = 24
+text = "
+For Camp Chaos Challenge 6 because I'm insane
+
+"
+horizontal_alignment = 1
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_itiny")
+theme_override_font_sizes/font_size = 54
+text = "START"
+
+[node name="Options" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_itiny")
+theme_override_font_sizes/font_size = 54
+text = "OPTIONS"
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_itiny")
+theme_override_font_sizes/font_size = 54
+text = "EXIT"
+
+[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]

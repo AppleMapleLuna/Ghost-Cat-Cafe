@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://dg2t78yjsws0"]
+
+[ext_resource type="Script" path="res://scripts/ToasterPlayer.gd" id="1_etmu6"]
+[ext_resource type="Texture2D" uid="uid://cwj5jgoklumls" path="res://art/toasterstandawkwardly.png" id="2_pkoa0"]
+[ext_resource type="Texture2D" uid="uid://fge1ndm2uv4l" path="res://art/toasterstandawkwardly2.png" id="3_yh6q7"]
+[ext_resource type="Texture2D" uid="uid://cnsbenqlp6wxp" path="res://art/toasterwalkie0000.png" id="4_wg7yx"]
+[ext_resource type="Texture2D" uid="uid://c5magknds6ymy" path="res://art/toasterwalkie0001.png" id="5_lo0rd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d8ejj"]
+radius = 77.0
+height = 182.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1b5lt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_pkoa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yh6q7")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_wg7yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lo0rd")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="ToasterPlayer" type="CharacterBody2D"]
+script = ExtResource("1_etmu6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_d8ejj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_1b5lt")
+animation = &"walk"
+frame_progress = 0.956164

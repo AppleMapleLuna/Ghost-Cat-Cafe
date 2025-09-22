@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Ghost Cat Cafe"
+run/main_scene="res://Scenes/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SfxManager="*res://Scenes/sfx_manager.gd"
 
 [rendering]
 
