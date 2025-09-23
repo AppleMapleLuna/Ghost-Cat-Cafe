@@ -1,22 +1,110 @@
-[gd_scene format=3 uid="uid://cayecxcdys28o"]
+[gd_scene load_steps=9 format=3 uid="uid://cayecxcdys28o"]
+
+[ext_resource type="Script" path="res://scripts/dialogue_box.gd" id="1_72pil"]
+[ext_resource type="Texture2D" uid="uid://c8tu35vglt0nf" path="res://art/Cutscenes/white.png" id="1_l1l58"]
+[ext_resource type="Texture2D" uid="uid://dhh45braqcao0" path="res://art/Cutscenes/portrait.png" id="2_rfrep"]
+[ext_resource type="Texture2D" uid="uid://bwj6024quvxvb" path="res://art/portraits/toaster_o.png" id="3_ixngo"]
+[ext_resource type="Texture2D" uid="uid://ca7gv7qbcokng" path="res://art/Cutscenes/Speech bubble.png" id="3_yfkx2"]
+[ext_resource type="FontFile" uid="uid://bvby40omulddj" path="res://Fonts/Qdbettercomicsans-jEEeG.ttf" id="5_b2u2u"]
+[ext_resource type="Texture2D" uid="uid://cprmhaiwmsjk4" path="res://art/Cutscenes/skip button.png" id="7_t5s5g"]
+[ext_resource type="Texture2D" uid="uid://dt8mufoiwda0s" path="res://art/Cutscenes/skip button_pressed.png" id="8_wiii4"]
 
 [node name="DialogueBox" type="Control"]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_72pil")
 
-[node name="DialogueBox" type="TextureRect" parent="."]
+[node name="BackgroundLayer" type="TextureRect" parent="."]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-
-[node name="text" type="Label" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+texture = ExtResource("1_l1l58")
 
 [node name="CharacterPortrait" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -398.0
+offset_top = -243.0
+offset_bottom = 89.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("2_rfrep")
+
+[node name="Portrait" type="TextureRect" parent="CharacterPortrait"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ixngo")
+
+[node name="SpeechBox" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -550.0
+offset_top = -385.0
+offset_right = 550.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("3_yfkx2")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 99.0
+offset_top = -229.0
+offset_right = 1051.0
+offset_bottom = -53.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_b2u2u")
+theme_override_font_sizes/font_size = 24
+text = "test writing"
+autowrap_mode = 3
+
+[node name="name" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 118.0
+offset_top = 347.0
+offset_right = -981.0
+offset_bottom = -273.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_b2u2u")
+theme_override_font_sizes/font_size = 24
+text = "Name"
+
+[node name="TextureButton" type="TextureButton" parent="."]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
+texture_normal = ExtResource("7_t5s5g")
+texture_pressed = ExtResource("8_wiii4")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

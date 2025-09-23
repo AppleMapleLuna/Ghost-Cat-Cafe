@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://dg2t78yjsws0"]
 
 [ext_resource type="Script" path="res://scripts/ToasterPlayer.gd" id="1_etmu6"]
-[ext_resource type="Texture2D" uid="uid://cwj5jgoklumls" path="res://art/toasterstandawkwardly.png" id="2_pkoa0"]
-[ext_resource type="Texture2D" uid="uid://fge1ndm2uv4l" path="res://art/toasterstandawkwardly2.png" id="3_yh6q7"]
-[ext_resource type="Texture2D" uid="uid://cnsbenqlp6wxp" path="res://art/toasterwalkie0000.png" id="4_wg7yx"]
-[ext_resource type="Texture2D" uid="uid://c5magknds6ymy" path="res://art/toasterwalkie0001.png" id="5_lo0rd"]
+[ext_resource type="Texture2D" uid="uid://cwj5jgoklumls" path="res://art/sprites/toasterstandawkwardly.png" id="2_7af5t"]
+[ext_resource type="Texture2D" uid="uid://fge1ndm2uv4l" path="res://art/sprites/toasterstandawkwardly2.png" id="3_7m8qb"]
+[ext_resource type="Texture2D" uid="uid://cnsbenqlp6wxp" path="res://art/sprites/toasterwalkie0000.png" id="4_733yt"]
+[ext_resource type="Texture2D" uid="uid://c5magknds6ymy" path="res://art/sprites/toasterwalkie0001.png" id="5_heyra"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d8ejj"]
 radius = 77.0
@@ -14,10 +14,10 @@ height = 182.0
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_pkoa0")
+"texture": ExtResource("2_7af5t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_yh6q7")
+"texture": ExtResource("3_7m8qb")
 }],
 "loop": true,
 "name": &"idle",
@@ -25,10 +25,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_wg7yx")
+"texture": ExtResource("4_733yt")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_lo0rd")
+"texture": ExtResource("5_heyra")
 }],
 "loop": true,
 "name": &"walk",

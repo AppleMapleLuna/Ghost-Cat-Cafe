@@ -20,4 +20,4 @@ func _on_start_pressed():
 
 func _on_options_pressed():
 	var next_scene = preload("res://Scenes/options.tscn")
-	get_tree().change_scene(next_scene)
+	get_tree().change_scene_to_packed(next_scene)

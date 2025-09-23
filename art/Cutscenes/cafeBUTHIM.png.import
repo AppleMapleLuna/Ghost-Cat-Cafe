@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfdk60gjtrbo1"
-path="res://.godot/imported/menuscreen.png-d56dfd5374ca381761c7de0b7fd636fc.ctex"
+uid="uid://dnbkv1s8hjemx"
+path="res://.godot/imported/cafeBUTHIM.png-8a2a7a3becf7cb2c9efd55a94a080810.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/menuscreen.png"
-dest_files=["res://.godot/imported/menuscreen.png-d56dfd5374ca381761c7de0b7fd636fc.ctex"]
+source_file="res://art/Cutscenes/cafeBUTHIM.png"
+dest_files=["res://.godot/imported/cafeBUTHIM.png-8a2a7a3becf7cb2c9efd55a94a080810.ctex"]
 
 [params]
 

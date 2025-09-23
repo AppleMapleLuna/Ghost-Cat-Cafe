@@ -1,12 +1,60 @@
-[gd_scene format=3 uid="uid://uxsvi211bux2"]
+[gd_scene load_steps=6 format=3 uid="uid://uxsvi211bux2"]
 
-[node name="Control" type="Control"]
+[ext_resource type="Script" path="res://scripts/options.gd" id="1_i0ost"]
+[ext_resource type="Texture2D" uid="uid://c8tu35vglt0nf" path="res://art/Cutscenes/white.png" id="1_xhkb6"]
+[ext_resource type="FontFile" uid="uid://h4bc0lggkimq" path="res://Fonts/Qdbettercomicsansbold-511d8.ttf" id="2_74ni4"]
+[ext_resource type="FontFile" uid="uid://bvby40omulddj" path="res://Fonts/Qdbettercomicsans-jEEeG.ttf" id="3_066e1"]
+[ext_resource type="FontFile" uid="uid://bn2s4cmb1in5u" path="res://Fonts/Qdbettercomicsansalternates-z8823.ttf" id="4_dld8x"]
+
+[node name="Options" type="Control"]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i0ost")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_xhkb6")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
+alignment = 1
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_74ni4")
+theme_override_font_sizes/font_size = 100
+text = "OPTIONS"
+horizontal_alignment = 1
+
+[node name="Extra text" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_066e1")
+theme_override_font_sizes/font_size = 45
+text = "Yeah umm I haven't added anything here yet
+
+Sorry...
+
+I don't have enough time to polish this :(
+
+"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_dld8x")
+theme_override_font_sizes/font_size = 54
+text = "GO BACK TO MAIN MENU"
+
+[connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmuyhubcpp6ed"
-path="res://.godot/imported/starclick0001.png-8b3e044daee14053cb2773809ad75242.ctex"
+uid="uid://buwcheirou2ik"
+path="res://.godot/imported/cafe.png-1178bd2b80c248b8f06d8f28d379d5d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/starclick0001.png"
-dest_files=["res://.godot/imported/starclick0001.png-8b3e044daee14053cb2773809ad75242.ctex"]
+source_file="res://art/Cutscenes/cafe.png"
+dest_files=["res://.godot/imported/cafe.png-1178bd2b80c248b8f06d8f28d379d5d8.ctex"]
 
 [params]
 

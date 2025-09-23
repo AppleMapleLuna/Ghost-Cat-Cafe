@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di2suq1tjot6g"
-path="res://.godot/imported/starclick0006.png-a1db68ffc1fd26cd1e9d08cb14d9d422.ctex"
+uid="uid://b2v25h382oxqm"
+path="res://.godot/imported/starclick0004.png-b2dd2c98791279a66f719c2aca766022.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/starclick0006.png"
-dest_files=["res://.godot/imported/starclick0006.png-a1db68ffc1fd26cd1e9d08cb14d9d422.ctex"]
+source_file="res://art/sprites/starclick0004.png"
+dest_files=["res://.godot/imported/starclick0004.png-b2dd2c98791279a66f719c2aca766022.ctex"]
 
 [params]
 

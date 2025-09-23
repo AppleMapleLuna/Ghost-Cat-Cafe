@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnsbenqlp6wxp"
-path="res://.godot/imported/toasterwalkie0000.png-4601feb8eaabae0086dedb39939e8aa0.ctex"
+uid="uid://byjgg3rojnghy"
+path="res://.godot/imported/toaster_what2.png-56f6eda1b581124b3b9a642e9c76e457.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/toasterwalkie0000.png"
-dest_files=["res://.godot/imported/toasterwalkie0000.png-4601feb8eaabae0086dedb39939e8aa0.ctex"]
+source_file="res://art/portraits/toaster_what2.png"
+dest_files=["res://.godot/imported/toaster_what2.png-56f6eda1b581124b3b9a642e9c76e457.ctex"]
 
 [params]
 

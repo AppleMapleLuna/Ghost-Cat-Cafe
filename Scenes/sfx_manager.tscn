@@ -1,15 +1,15 @@
 [gd_scene load_steps=9 format=3 uid="uid://dc7ttdl3sv0k7"]
 
-[ext_resource type="Script" path="res://Scenes/sfx_manager.gd" id="1_lvkt1"]
+[ext_resource type="Script" path="res://scripts/sfx_manager.gd" id="1_lvkt1"]
 [ext_resource type="AudioStream" uid="uid://cloo7g8inn13c" path="res://soundfx/cat-meow-1-fx-306178.wav" id="2_0rw8x"]
 [ext_resource type="AudioStream" uid="uid://5imuclx20o1w" path="res://soundfx/shine.wav" id="3_e328e"]
-[ext_resource type="AudioStream" uid="uid://cr8r1fawaqwgp" path="res://soundfx/twinklesparkle.wav" id="4_tsjjv"]
+[ext_resource type="AudioStream" uid="uid://coj1d0uwre2i1" path="res://soundfx/double-mouse-click-381776.wav" id="4_b2ccl"]
 [ext_resource type="AudioStream" uid="uid://mvcgur6a6l1n" path="res://soundfx/vine-boom-392646.wav" id="5_wsu3p"]
 [ext_resource type="AudioStream" uid="uid://cty7j52tku8u3" path="res://soundfx/orchestra-hit-240475.wav" id="6_8j7wr"]
 [ext_resource type="AudioStream" uid="uid://jlbqo8rvv0ou" path="res://soundfx/wahwahwahwaaaahahahahahaha-94669.wav" id="7_0j7ub"]
 [ext_resource type="AudioStream" uid="uid://cllllcsh3bpxf" path="res://soundfx/soft-subtle-ui-pop-sfx-348820.wav" id="8_38gr0"]
 
-[node name="SFXManager" type="Node"]
+[node name="SFXManager" type="Node" groups=["sounds"]]
 script = ExtResource("1_lvkt1")
 
 [node name="catMeowSound" type="AudioStreamPlayer2D" parent="."]
@@ -19,7 +19,7 @@ stream = ExtResource("2_0rw8x")
 stream = ExtResource("3_e328e")
 
 [node name="Click2" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_tsjjv")
+stream = ExtResource("4_b2ccl")
 
 [node name="VineBoomSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_wsu3p")

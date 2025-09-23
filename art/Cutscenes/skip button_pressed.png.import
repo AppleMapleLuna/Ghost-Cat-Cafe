@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wt6vuuqkp3l8"
-path="res://.godot/imported/starclick0000.png-f06bd51cf72b50d4ee897c4bdf603ff6.ctex"
+uid="uid://dt8mufoiwda0s"
+path="res://.godot/imported/skip button_pressed.png-e3cf7fb47cb0f9d2cc6e12a8c7ec2587.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/starclick0000.png"
-dest_files=["res://.godot/imported/starclick0000.png-f06bd51cf72b50d4ee897c4bdf603ff6.ctex"]
+source_file="res://art/Cutscenes/skip button_pressed.png"
+dest_files=["res://.godot/imported/skip button_pressed.png-e3cf7fb47cb0f9d2cc6e12a8c7ec2587.ctex"]
 
 [params]
 

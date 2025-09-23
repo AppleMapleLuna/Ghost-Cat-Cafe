@@ -1,0 +1,226 @@
+[
+  {
+	"name": "Squarerootify",
+	"portrait": "res://art/portraits/squarerootify.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "TOASTER I NEED YOUR HELP",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_o.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Huh?",
+	]
+  },
+{
+	"name": "Squarerootify",
+	"portrait": "res://art/portraits/squarerootify.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "THERE ARE PEOPLE GATHERING UP AT THIS HAUNTED CAFE",
+	  "AND THEY'RE ALL EXPECTING QUALITY SERVICE BECAUSE IT'S MYSTERIOUS"
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "What?",
+	]
+  },
+  {
+	"name": "Squarerootify",
+	"portrait": "res://art/portraits/squarerootify.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "IT'S NOT BUILT FOR HANDLING RUSH HOURS AND THERE'S ONLY ONE EMPLOYEE",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what2.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "WHAT",
+	]
+  },
+  {
+	"name": "Squarerootify",
+	"portrait": "res://art/portraits/squarerootify.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "BUT THEY ALREADY QUIT",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what2.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "WHAT",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_trauma.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "...",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_whathaveyoudone.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "There's no way I'm handling this...",
+	]
+  },
+  {
+	"name": "YoyleCushion",
+	"portrait": "res://art/portraits/the cat slayer.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Hi it is me the cat slayer allow me to burn some cats",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what2.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "WHAT?! WAIT-",
+	]
+  },
+  {
+	"name": "",
+	"portrait": null,
+	"background": "res://art/Cutscenes/cafeBUTHIM.png",
+	"lines": []
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_trauma.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "...",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what2.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "WHY WOULD YOU DO THAT?!",
+	]
+  },
+  {
+	"name": "YoyleCushion",
+	"portrait": "res://art/portraits/the cat slayer.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "I was born for this.",
+	]
+  },
+  {
+	"name": "Narrator",
+	"portrait": "",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "YoyleCushion proceeded to then slowly ascend, enlargening their nonexistent wings as they proceeded to fly to the skies above to return to where he came from, having finished his task of feline annihilation and thus leaving as I talk in an extremely verbose matter to better describe the incredible moments that had transpired thus far.",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_o.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Narrator?! I thought you died by Carbug?",
+	]
+  },
+  {
+	"name": "Narrator",
+	"portrait": "",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "After travelling through many alternate universes, I started to Get Better and tried moving back all the way here. It wasn't a smooth journey, but alas-",
+	]
+  },
+  {
+	"name": "Cat God",
+	"portrait": "res://art/portraits/cat god.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Get outta here, meow. This isn't Stanley Parable, meow.",
+	]
+  },
+  {
+	"name": "Narrator",
+	"portrait": "",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Says the demon in the flesh-",
+	]
+  },
+  {
+	"name": "Cat God",
+	"portrait": "res://art/portraits/cat god.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "...",
+	]
+  },
+  {
+	"name": "...",
+	"portrait": "",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "...",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_o.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Wha-",
+	  "Ok, nevermind..."
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_happy.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "So...",
+	]
+  },
+  {
+	"name": "Cat God",
+	"portrait": "res://art/portraits/cat god.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "I got you, meow.",
+	]
+  },
+  {
+	"name": "Ghost Cats",
+	"portrait": "res://art/portraits/ghost cats.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "Meow!",
+	]
+  },
+  {
+	"name": "Toaster",
+	"portrait": "res://art/portraits/toaster_what2.png",
+	"background": "res://art/Cutscenes/cafe.png",
+	"lines": [
+	  "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+	]
+  },
+]

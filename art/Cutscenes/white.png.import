@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5magknds6ymy"
-path="res://.godot/imported/toasterwalkie0001.png-c393d47163afe9a4847eb4585d9a134d.ctex"
+uid="uid://c8tu35vglt0nf"
+path="res://.godot/imported/white.png-04bd0633d01311965ec2c5745c7eb3da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/toasterwalkie0001.png"
-dest_files=["res://.godot/imported/toasterwalkie0001.png-c393d47163afe9a4847eb4585d9a134d.ctex"]
+source_file="res://art/Cutscenes/white.png"
+dest_files=["res://.godot/imported/white.png-04bd0633d01311965ec2c5745c7eb3da.ctex"]
 
 [params]
 

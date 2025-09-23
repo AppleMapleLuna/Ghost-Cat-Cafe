@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwj5jgoklumls"
-path="res://.godot/imported/toasterstandawkwardly.png-00d9e7bf0dfc950cde46b7180780734e.ctex"
+uid="uid://cifmbqdm4of87"
+path="res://.godot/imported/starclick0002.png-2b94d2ee33b2e8de583881185d8ed108.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/toasterstandawkwardly.png"
-dest_files=["res://.godot/imported/toasterstandawkwardly.png-00d9e7bf0dfc950cde46b7180780734e.ctex"]
+source_file="res://art/sprites/starclick0002.png"
+dest_files=["res://.godot/imported/starclick0002.png-2b94d2ee33b2e8de583881185d8ed108.ctex"]
 
 [params]
 

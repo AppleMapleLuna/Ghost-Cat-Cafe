@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4sp017jo3hdt"
-path="res://.godot/imported/starclick0005.png-e2aeca608322a5259bc2866cffadea9b.ctex"
+uid="uid://5yjrk4v2vhnc"
+path="res://.godot/imported/ghost cats.png-71afe690eb2cf0502e8b5f9be831ceda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/starclick0005.png"
-dest_files=["res://.godot/imported/starclick0005.png-e2aeca608322a5259bc2866cffadea9b.ctex"]
+source_file="res://art/portraits/ghost cats.png"
+dest_files=["res://.godot/imported/ghost cats.png-71afe690eb2cf0502e8b5f9be831ceda.ctex"]
 
 [params]
 

@@ -6,10 +6,13 @@ const MAX_SPEED = 400.0
 const ACCELERATION_FACTOR = 2.0
 var target_position : Vector2
 var is_moving : bool = false
+var can_move : bool = true
 
 signal movement_blocked
 
 func _input(event):
+	if !can_move:
+		return
 	if (event is InputEventMouseButton and event.pressed) or (event is InputEventScreenTouch and event.pressed):
 		target_position = event.position
 		is_moving = true

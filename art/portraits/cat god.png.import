@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cifmbqdm4of87"
-path="res://.godot/imported/starclick0002.png-6cab624ba9386cde0287b5895a8e8843.ctex"
+uid="uid://cd63st8splpkh"
+path="res://.godot/imported/cat god.png-419c8874d04031921579619fbd168eaf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/starclick0002.png"
-dest_files=["res://.godot/imported/starclick0002.png-6cab624ba9386cde0287b5895a8e8843.ctex"]
+source_file="res://art/portraits/cat god.png"
+dest_files=["res://.godot/imported/cat god.png-419c8874d04031921579619fbd168eaf.ctex"]
 
 [params]
 
